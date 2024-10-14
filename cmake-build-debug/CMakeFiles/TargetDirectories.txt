@@ -1,0 +1,3 @@
+C:/Users/gogac/CLionProjects/ASP2_Domaci/cmake-build-debug/CMakeFiles/ASP2_Domaci.dir
+C:/Users/gogac/CLionProjects/ASP2_Domaci/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gogac/CLionProjects/ASP2_Domaci/cmake-build-debug/CMakeFiles/rebuild_cache.dir
