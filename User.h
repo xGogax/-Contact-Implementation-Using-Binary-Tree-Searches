@@ -8,6 +8,7 @@ using namespace std;
 class User {
 public:
     User(std::string fileline);
+    ~User();
 
     void printUser();
 

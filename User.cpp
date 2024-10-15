@@ -6,6 +6,10 @@ User::User(std::string fileline) {
     setNumber(fileline);
 }
 
+User::~User() {
+
+}
+
 void User::setName(std::string fileline) {
     this->name = fileline.substr(0, fileline.find(','));
 }
