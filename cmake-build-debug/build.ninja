@@ -61,6 +61,18 @@ build CMakeFiles/ASP2_Domaci.dir/User.cpp.obj: CXX_COMPILER__ASP2_Domaci_unscann
   OBJECT_DIR = CMakeFiles\ASP2_Domaci.dir
   OBJECT_FILE_DIR = CMakeFiles\ASP2_Domaci.dir
 
+build CMakeFiles/ASP2_Domaci.dir/UserArray.cpp.obj: CXX_COMPILER__ASP2_Domaci_unscanned_Debug C$:/Users/gogac/CLionProjects/ASP2_Domaci/UserArray.cpp || cmake_object_order_depends_target_ASP2_Domaci
+  DEP_FILE = CMakeFiles\ASP2_Domaci.dir\UserArray.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ASP2_Domaci.dir
+  OBJECT_FILE_DIR = CMakeFiles\ASP2_Domaci.dir
+
+build CMakeFiles/ASP2_Domaci.dir/BST.cpp.obj: CXX_COMPILER__ASP2_Domaci_unscanned_Debug C$:/Users/gogac/CLionProjects/ASP2_Domaci/BST.cpp || cmake_object_order_depends_target_ASP2_Domaci
+  DEP_FILE = CMakeFiles\ASP2_Domaci.dir\BST.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ASP2_Domaci.dir
+  OBJECT_FILE_DIR = CMakeFiles\ASP2_Domaci.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ASP2_Domaci
@@ -69,7 +81,7 @@ build CMakeFiles/ASP2_Domaci.dir/User.cpp.obj: CXX_COMPILER__ASP2_Domaci_unscann
 #############################################
 # Link the executable ASP2_Domaci.exe
 
-build ASP2_Domaci.exe: CXX_EXECUTABLE_LINKER__ASP2_Domaci_Debug CMakeFiles/ASP2_Domaci.dir/main.cpp.obj CMakeFiles/ASP2_Domaci.dir/User.cpp.obj
+build ASP2_Domaci.exe: CXX_EXECUTABLE_LINKER__ASP2_Domaci_Debug CMakeFiles/ASP2_Domaci.dir/main.cpp.obj CMakeFiles/ASP2_Domaci.dir/User.cpp.obj CMakeFiles/ASP2_Domaci.dir/UserArray.cpp.obj CMakeFiles/ASP2_Domaci.dir/BST.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ASP2_Domaci.dir

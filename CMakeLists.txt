@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(ASP2_Domaci main.cpp
         User.cpp
         User.h
+        UserArray.cpp
+        UserArray.h
+        BST.cpp
+        BST.h
 )

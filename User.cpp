@@ -6,18 +6,15 @@ User::User(std::string fileline) {
     setNumber(fileline);
 }
 
-User::~User() {
 
+void User::setSurname(std::string fileline) {
+    this->surname = fileline.substr(0, fileline.find(','));
 }
 
 void User::setName(std::string fileline) {
-    this->name = fileline.substr(0, fileline.find(','));
-}
-
-void User::setSurname(std::string fileline) {
     size_t prva_pozicija = fileline.find(',') + 1;
     size_t druga_pozicija = fileline.find(',', prva_pozicija);
-    this->surname = fileline.substr(prva_pozicija, druga_pozicija - prva_pozicija);
+    this->name = fileline.substr(prva_pozicija, druga_pozicija - prva_pozicija);
 }
 
 void User::setNumber(std::string fileline) {
